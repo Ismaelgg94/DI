@@ -1,0 +1,9 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\bin\Debug\MiniPracticaDragAndDrop.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\bin\Debug\MiniPracticaDragAndDrop.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\bin\Debug\MiniPracticaDragAndDrop.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\obj\Debug\MiniPracticaDragAndDrop.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\obj\Debug\MiniPracticaDragAndDrop.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\obj\Debug\MiniPracticaDragAndDrop.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\obj\Debug\MiniPracticaDragAndDrop.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\obj\Debug\MiniPracticaDragAndDrop.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaDragAndDrop\MiniPracticaDragAndDrop\obj\Debug\MiniPracticaDragAndDrop.pdb

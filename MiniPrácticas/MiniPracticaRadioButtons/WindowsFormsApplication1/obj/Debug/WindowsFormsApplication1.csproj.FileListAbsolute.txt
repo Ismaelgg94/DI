@@ -1,0 +1,2 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MiniPractica RadioButtons.exe.config

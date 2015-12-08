@@ -1,0 +1,9 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\bin\Debug\CheckBoxAleatorio.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\bin\Debug\CheckBoxAleatorio.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\bin\Debug\CheckBoxAleatorio.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\obj\Debug\CheckBoxAleatorio.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\obj\Debug\CheckBoxAleatorio.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\obj\Debug\CheckBoxAleatorio.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\obj\Debug\CheckBoxAleatorio.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\obj\Debug\CheckBoxAleatorio.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\CheckBoxAleatorio\CheckBoxAleatorio\obj\Debug\CheckBoxAleatorio.csprojResolveAssemblyReference.cache

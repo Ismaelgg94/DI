@@ -1,0 +1,84 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.InicioSesion.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.Coleccion.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.exe.config
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.exe
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.pdb
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.exe
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.pdb
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.Coleccion.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.InicioSesion.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.Properties.Resources.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.Detalles.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.Detalles.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.Registro.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.Registro.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.exe.manifest
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.application
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.exe.manifest
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\obj\Debug\Magic.application
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic.mdf
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic\Magic\bin\Debug\Magic_log.ldf
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\bin\Debug\Magic.exe.config
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.exe
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.pdb
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\bin\Debug\Magic.mdf
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\bin\Debug\Magic_log.ldf
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\bin\Debug\Magic.exe.manifest
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\bin\Debug\Magic.application
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\bin\Debug\Magic.exe
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\bin\Debug\Magic.pdb
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.Coleccion.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.Detalles.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.InicioSesion.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.Properties.Resources.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.Registro.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.csproj.GenerateResource.Cache
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.exe.manifest
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Magic - copiaSeguridad\Magic\obj\Debug\Magic.application
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.exe.config
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.exe
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.pdb
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.mdf
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic_log.ldf
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.exe.manifest
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.application
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.exe
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.pdb
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.Coleccion.resources
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.Detalles.resources
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.InicioSesion.resources
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.Properties.Resources.resources
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.Registro.resources
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.csproj.GenerateResource.Cache
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.exe.manifest
+C:\Users\Alex\Desktop\Diseño interfaces a entregar\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.application
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.exe.config
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.exe
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.pdb
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.mdf
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic_log.ldf
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.exe.manifest
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.application
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.exe
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\bin\Debug\Magic.pdb
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.Coleccion.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.Detalles.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.InicioSesion.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.Properties.Resources.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.Registro.resources
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.csproj.GenerateResource.Cache
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.exe.manifest
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\Proyecto MAGIC\Magic desde VISUAL STUDIO\Magic\obj\Debug\Magic.application

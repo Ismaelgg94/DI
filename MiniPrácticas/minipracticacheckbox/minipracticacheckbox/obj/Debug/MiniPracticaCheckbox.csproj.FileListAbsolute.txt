@@ -1,0 +1,15 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\bin\Debug\MiniPracticaCheckbox.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\bin\Debug\MiniPracticaCheckbox.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\bin\Debug\MiniPracticaCheckbox.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\HojaRol\MiniPracticaCheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\minipracticacheckbox\MiniPracticaCheckbox\bin\Debug\MiniPracticaCheckbox.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\minipracticacheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\minipracticacheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.pdb
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\minipracticacheckbox\MiniPracticaCheckbox\bin\Debug\MiniPracticaCheckbox.exe.config
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\minipracticacheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.exe
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\minipracticacheckbox\MiniPracticaCheckbox\obj\Debug\MiniPracticaCheckbox.pdb

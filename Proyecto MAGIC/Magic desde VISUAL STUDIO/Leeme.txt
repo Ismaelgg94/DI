@@ -1,0 +1,1 @@
+Las rutas de los recursos necesarios, están establecidas respecto al proyecto.

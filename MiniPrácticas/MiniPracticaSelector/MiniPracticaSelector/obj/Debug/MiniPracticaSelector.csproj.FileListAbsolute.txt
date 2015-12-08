@@ -1,0 +1,9 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\bin\Debug\MiniPracticaSelector.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\bin\Debug\MiniPracticaSelector.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\bin\Debug\MiniPracticaSelector.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\obj\Debug\MiniPracticaSelector.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\obj\Debug\MiniPracticaSelector.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\obj\Debug\MiniPracticaSelector.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\obj\Debug\MiniPracticaSelector.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\obj\Debug\MiniPracticaSelector.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\MiniPracticaSelector\MiniPracticaSelector\obj\Debug\MiniPracticaSelector.pdb

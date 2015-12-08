@@ -1,0 +1,87 @@
+/* //Depende de la raza seleccionada en el comboBox, elegirá una raza mediante los siguientes If
+            if (cbRaza.Items[0].Equals(cbRaza.SelectedItem))//Raza Clavate
+            {
+                if (rbMasculino.Checked) //Masculino
+                {
+                    //Según el radioButton seleccionado de profesión, saldrá una imagen diferente.
+                    if (rbGuerrero.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.ClavateGuerrero;
+                    else if (rbMago.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.ClavateMago;
+                    else if (rbPicaro.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.ClavatePicaro;
+                    else if (rbCazador.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.ClavateCazador;
+                }
+                else //Femenino
+                    if (rbGuerrero.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.ClavateGuerreroHembra;
+                else if (rbMago.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.ClavateMagoHembra;
+                else if (rbPicaro.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.ClavatePicaroHembra;
+                else if (rbCazador.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.ClavateCazadorHembra;
+
+            }
+            else if (cbRaza.Items[1].Equals(cbRaza.SelectedItem)) //Raza Selki
+            {
+                if (rbMasculino.Checked) //Masculino
+                {
+                    //Según el radioButton seleccionado de profesión, saldrá una imagen diferente.
+                    if (rbGuerrero.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.SelkiGuerrero;
+                    else if (rbMago.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.SelkiMago;
+                    else if (rbPicaro.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.SelkiPicaro;
+                    else if (rbCazador.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.SelkiCazador;
+                }
+                else //Femenino
+                    if (rbGuerrero.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.SelkiGuerreroHembra;
+                else if (rbMago.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.SelkiMagoHembra;
+                else if (rbPicaro.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.SelkiPicaroHembra;
+                else if (rbCazador.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.SelkiCazadorHembra;
+
+            }else if (cbRaza.Items[2].Equals(cbRaza.SelectedItem)) //Raza Lilty
+            {
+                //Según el radioButton seleccionado de profesión, saldrá una imagen diferente.
+                if (rbGuerrero.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.liltyGuerrero;
+                else if (rbMago.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.liltyMago;
+                else if (rbPicaro.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.liltyPicaro;
+                else if (rbCazador.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.liltyCazador;
+            }
+            else if (cbRaza.Items[3].Equals(cbRaza.SelectedItem)) //Raza Yuko
+            {
+                if (rbMasculino.Checked) //Masculino
+                {
+                    //Según el radioButton seleccionado de profesión, saldrá una imagen diferente.
+                    if (rbGuerrero.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.yukoGuerrero;
+                    else if (rbMago.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.yukoMago;
+                    else if (rbPicaro.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.yukoPicaro;
+                    else if (rbCazador.Checked)
+                        pbAvatar.BackgroundImage = Properties.Resources.yukoCazador;
+                }
+                else //Femenino
+                    if (rbGuerrero.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.yukoGuerreroHembra;
+                else if (rbMago.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.yukoMagoHembra;
+                else if (rbPicaro.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.yukoPicaroHembra;
+                else if (rbCazador.Checked)
+                    pbAvatar.BackgroundImage = Properties.Resources.yukoCazadorHembra;
+
+            }*/

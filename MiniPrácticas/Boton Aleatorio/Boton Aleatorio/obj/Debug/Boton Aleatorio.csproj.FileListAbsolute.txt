@@ -1,0 +1,18 @@
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\bin\Debug\Boton Aleatorio.exe.config
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\bin\Debug\Boton Aleatorio.exe
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\bin\Debug\Boton Aleatorio.pdb
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton Aleatorio.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton_Aleatorio.Form1.resources
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton_Aleatorio.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton Aleatorio.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton Aleatorio.exe
+c:\users\alex\documents\visual studio 2015\Projects\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton Aleatorio.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\bin\Debug\Boton Aleatorio.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton Aleatorio.exe
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton Aleatorio.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\bin\Debug\Boton Aleatorio.exe
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\bin\Debug\Boton Aleatorio.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton Aleatorio.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton_Aleatorio.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton_Aleatorio.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2º\DI\Boton Aleatorio\Boton Aleatorio\obj\Debug\Boton Aleatorio.csproj.GenerateResource.Cache

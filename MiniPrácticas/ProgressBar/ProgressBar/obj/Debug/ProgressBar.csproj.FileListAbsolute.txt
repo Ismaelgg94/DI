@@ -1,0 +1,9 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\bin\Debug\ProgressBar.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\bin\Debug\ProgressBar.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\bin\Debug\ProgressBar.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\obj\Debug\ProgressBar.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\obj\Debug\ProgressBar.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\obj\Debug\ProgressBar.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\obj\Debug\ProgressBar.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\obj\Debug\ProgressBar.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\ProgressBar\ProgressBar\obj\Debug\ProgressBar.pdb

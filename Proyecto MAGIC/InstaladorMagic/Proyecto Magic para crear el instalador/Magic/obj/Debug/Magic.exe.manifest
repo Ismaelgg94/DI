@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Magic.exe" version="1.0.0.13" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="iconoAplicacion.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Magic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Magic.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Magic.exe" size="5714944">
+      <assemblyIdentity name="Magic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nwCAsO+mzM/y9yAyoPGlaMUUk9KRGMKXjCSzlurR7Nw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="iconoAplicacion.ico" size="153835">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kOUYnou2VsZUfYnp+HcKEgAuV2u7L4rRAYzTyFvuj+c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Magic.exe.config" size="577">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Vr4UFq9gYS+MGNQIHOQERbu2L4v3En/B2WMX5/3KmzA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Magic.mdf" size="3407872" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pXCM2EsdFNR5oglKebtK4EZoW9s9cwFxu+t74UgZLKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Magic_log.ldf" size="786432" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>waDcGU7TxQhYnfObO0NeZh7HayWW97B9DIRzbU73jMs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\btnAtras.png" size="1058">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zQ0fFf9zvr1M5jwtZlVNPA69zpc6CuLr5uCrk16rlf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\btnMas.png" size="6316">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3Acl4BB1XOaRpmv92V5K1BfpMaJP5ySQ288kFBmJvvo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\btnSalir.png" size="6593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9UJXVtNDY9Mzk7p+KrD8cG8TjW44AwiMzFIXNhWAJ8o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\A la Deriva.png" size="132028">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eWXpRPAvacUueHG2D0Qp9I0o71qYADm19Md3FQrkU3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Abad de la Fortaleza Keral.png" size="143369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W4LHLAsdJ6iPXVneKNpCTUzAW3lzFQ1RKxxEVTfGu1A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Anclado al éter.png" size="120857">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cSwmeL+fMtPErDD3JdY/r9E84Gk+d6KOb/3mW8WG0g8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\AsaltaCamaras.png" size="150386">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VtVHKzvmtAC4DbnikXWm/p2dKE8tse2t5Xe1gHRWNxI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Asesina de Sílumgar.png" size="136670">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7vf+HE5SrBf07JalJB97Bq+ty6LnSZwcToMdGthq1Wc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Cáncrix acorazado.png" size="124222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>98WgvXDUbRjbFfod4y6Y4/o6pfOzfJINGXqmSPx7Gxg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Catacomb Slug.png" size="132074">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IR7GcwwmsWTNoJCwQ87kmuiHySemYEfm7CkZYDQmAZw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Chasquido del éter.png" size="155577">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uU7YhBGmRCjaL0qQFcIJgfihDL843mmjzDyFrVwBqR8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Crecimiento abundante.png" size="153396">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0WK1mbNr30iy0n39hOjz5wmBvayEfXZ3avCK8QWB6Gg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\De las cenizas.png" size="141822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DydvQRtkY/5dP6UUEdC37/Z0vzdbr9vcd+mXhJqDyKM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\De vuelta a la naturaleza.png" size="138916">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f0gpDD+6al/xLLNQ7LEQqUOx0EfyolMMKlUvHaEUXzY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Domador abzano.png" size="126157">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FuPG4ok/fduAcq3EcIsWgqXJ6RJDSTUqum9px8oZEQ0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Draco carroñero.png" size="136810">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pkSW0Jd06WIoEWM3qnqLYix6+nnwej0y+4JpU9L1ZXw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Elfo cyliano.png" size="132162">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k5ZVhQEm4BHHYDnLIPerJ3Hq7nvA+bpgDVSvVu9L3TA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Engendro de Akoum.png" size="138500">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Re+FGrzjBnH+ZTkx3LZquKLBvO/anwFbjoYvQSh2qr4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Fundechatarra de Óxida.png" size="145602">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uZcXWocg81OLctvjcb+wBXFso4Es5RrWW6OpY5zIyqM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\HabitanteDeLaCalleDeLaCorte.png" size="120237">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pZmjxw/rZIgSCbjipVHrznsRUvHG7y2ehpWz7RVH3mA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Incursor de la academia.png" size="162092">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hEg9tHtPtL+PwcjVJKXGv3Qu/O4PDmCqv/Jqs9QW3uw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Orco tirocertero.png" size="122652">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0gEe8ch3oE2n3KpLieA5QNOKSSHTnvogRPhYvK9dfGc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Prototipo de imaginación.png" size="144946">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+DPe7W/+odkTY7ZXNspkLReOLA/K1k7B2nj8VYNvdkM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Sabia de fábulas.png" size="146819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EfIp4lwUxaGvjhcBzrdD3aWiUwF5DHpg9LYNTEg7SOE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Skaab acorazado.png" size="129511">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Inp3JiVgM3DQFzI+4eTKiD3GnceMLwECaRIM1hz7uDQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Sortilegio abzano.png" size="131372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rYcsXn4S0/y05OHgA20bF99PUDQAeMO7V7BfPfheXyE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Cartas\Trampa de archivo.png" size="143297">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hBxo3Z6kPIRDCHXBhbi9MPrfBBS3rOiqDhWg/ZIuJoA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\colorGeneral.png" size="150233">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a5v6gxpuk8eMc89diVH4Fd+oFmp+hANTwg10ZvPMNvg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\InicioSesion.png" size="1386224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+JIXbR3hRQcWak37UTwXAMDIjIUNV9a3d57g3P6iEcs=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

@@ -1,0 +1,8 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Barra de progreso\Barra de progreso\bin\Debug\Barra de progreso.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Barra de progreso\Barra de progreso\bin\Debug\Barra de progreso.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Barra de progreso\Barra de progreso\bin\Debug\Barra de progreso.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Barra de progreso\Barra de progreso\obj\Debug\Barra_de_progreso.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Barra de progreso\Barra de progreso\obj\Debug\Barra_de_progreso.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Barra de progreso\Barra de progreso\obj\Debug\Barra de progreso.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Barra de progreso\Barra de progreso\obj\Debug\Barra de progreso.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\Barra de progreso\Barra de progreso\obj\Debug\Barra de progreso.pdb

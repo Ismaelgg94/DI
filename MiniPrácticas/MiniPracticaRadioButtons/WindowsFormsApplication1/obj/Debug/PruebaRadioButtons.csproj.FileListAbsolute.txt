@@ -1,0 +1,12 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MiniPractica RadioButtons.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MiniPractica RadioButtons.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MiniPractica RadioButtons.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\PruebaRadioButtons.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RadioButtons.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\PruebaRadioButtons.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MiniPractica RadioButtons.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MiniPractica RadioButtons.pdb
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\MiniPracticaRadioButtons\WindowsFormsApplication1\bin\Debug\MiniPractica RadioButtons.exe.config
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\MiniPracticaRadioButtons\WindowsFormsApplication1\obj\Debug\MiniPractica RadioButtons.exe
+C:\Users\Alex\Desktop\Dropbox\Ciclo\2\DI\MiniPracticaRadioButtons\WindowsFormsApplication1\obj\Debug\MiniPractica RadioButtons.pdb

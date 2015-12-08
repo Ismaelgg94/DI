@@ -1,0 +1,3 @@
+Las rutas de los recursos necesarios, están establecidas respecto al ejecutable.
+
+A parte del instalador ('InstaladorPagic'), también viene incluido el proyecto de instalación con su solución de magic incluida.

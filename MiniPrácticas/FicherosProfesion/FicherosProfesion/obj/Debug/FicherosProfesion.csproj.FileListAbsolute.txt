@@ -1,0 +1,9 @@
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\bin\Debug\FicherosProfesion.exe.config
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\bin\Debug\FicherosProfesion.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\bin\Debug\FicherosProfesion.pdb
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\obj\Debug\FicherosProfesion.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\obj\Debug\FicherosProfesion.Form1.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\obj\Debug\FicherosProfesion.Properties.Resources.resources
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\obj\Debug\FicherosProfesion.csproj.GenerateResource.Cache
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\obj\Debug\FicherosProfesion.exe
+C:\Users\Usuario\Dropbox\Ciclo\2\DI\FicherosProfesion\FicherosProfesion\obj\Debug\FicherosProfesion.pdb
