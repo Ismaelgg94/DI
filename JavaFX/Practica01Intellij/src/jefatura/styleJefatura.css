@@ -1,0 +1,30 @@
+#AnchorPane{
+    -fx-background-image: url("../res/background.jpg");
+    -fx-background-repeat: space ;   
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+#gridHorario{
+    
+    -fx-grid-lines-visible: false;
+}
+#gridHorario Label{
+    -fx-font-weight: bold;
+}
+
+#imgCelo{
+    -fx-background-image: url("../res/celo.png");
+    -fx-background-position: center center;
+    -fx-grid-lines-visible: false;
+    -fx-background-size: stretch;
+}
+#imgHorarioSemanal{
+    -fx-background-image: url("../res/Horario.jpg");
+    -fx-background-position: center center;
+    -fx-grid-lines-visible: false;
+    -fx-background-size: stretch;
+}
+#itemAsignatura{
+    -fx-background-color: red;
+}
+

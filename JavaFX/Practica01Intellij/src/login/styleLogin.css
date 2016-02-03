@@ -1,0 +1,36 @@
+#prueba{
+    -fx-background-image: url("../res/login.png");
+    -fx-background-repeat: space;
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+.textField_transparent{
+    -fx-background-color: transparent;
+}
+
+#paneLogin{
+    -fx-background-color: rgba(0, 0, 0, 0);
+
+    -fx-effect: dropshadow(gaussian, black, 30, 0.5, 0, 0);
+}
+
+.paneBtn:pressed{
+    -fx-effect: dropshadow(gaussian, black, 0, 0, 0, 2.5);
+    -fx-translate-y: 4;
+}
+
+.paneBtn Label:pressed {
+    -fx-effect: dropshadow(gaussian, black, 0, 0, 0, 0);
+    -fx-translate-y: 0;
+}
+.paneBtn:hover{
+    -fx-cursor: hand;
+}
+.mano:hover{
+    -fx-cursor: hand;
+}
+
+
+
+

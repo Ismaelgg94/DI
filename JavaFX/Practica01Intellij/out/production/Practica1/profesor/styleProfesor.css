@@ -1,0 +1,21 @@
+.tab-pane *.tab-header-background {
+    -fx-opacity: 0;
+}
+.tab{
+   -fx-opacity: 0;
+   -fx-cursor: hand;
+}
+
+@font-face {
+    font-family: 'sego';
+    src: url('../res/segoepr.ttf');
+}
+
+
+//Los label dentro de las etiquetas del horario.
+GridPane Label{
+    -fx-text-fill: white;
+    -fx-font-family: Western;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}

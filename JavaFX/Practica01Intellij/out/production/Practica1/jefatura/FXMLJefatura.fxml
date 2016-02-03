@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="588.0" prefWidth="910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jefatura.JefaturaController">
+   <children>
+      <ListView fx:id="lvHorario" layoutX="62.0" layoutY="78.0" prefHeight="216.0" prefWidth="355.0" visible="false">
+         <effect>
+            <DropShadow />
+         </effect></ListView>
+      <RadioButton fx:id="rbDiario" layoutX="396.0" layoutY="14.0" mnemonicParsing="false" onAction="#onCbPressed" text="Diario">
+         <toggleGroup>
+            <ToggleGroup fx:id="modo" />
+         </toggleGroup></RadioButton>
+      <Pane fx:id="paneSemanal" layoutX="18.0" layoutY="77.0" prefHeight="277.0" prefWidth="443.0" rotate="-4.8">
+         <children>
+            <ImageView fx:id="imgHorarioSemanal" fitHeight="263.0" fitWidth="419.0" layoutX="12.0" layoutY="7.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../res/Horario.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgCelo2" fitHeight="88.0" fitWidth="108.0" layoutX="367.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/celo.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgCelo21" fitHeight="88.0" fitWidth="108.0" layoutX="-19.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true" rotate="-175.9">
+               <image>
+                  <Image url="@../res/celo.png" />
+               </image>
+            </ImageView>
+            <GridPane fx:id="gridHorario" layoutX="32.0" layoutY="51.0" prefHeight="201.0" prefWidth="377.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="325.0" minWidth="10.0" prefWidth="43.93736267089844" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="325.0" minWidth="10.0" prefWidth="58.06263732910156" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="491.0" minWidth="10.0" prefWidth="66.00700378417969" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="491.0" minWidth="10.0" prefWidth="82.99299621582031" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="491.0" minWidth="10.0" prefWidth="62.99298095703125" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="491.0" minWidth="10.0" prefWidth="65.00701904296875" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="204.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="204.0" minHeight="10.0" prefHeight="24.261550903320312" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="204.0" minHeight="0.0" prefHeight="25.738449096679688" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="204.0" minHeight="10.0" prefHeight="25.749588012695312" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="204.0" minHeight="10.0" prefHeight="25.2440185546875" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="204.0" minHeight="10.0" prefHeight="22.7559814453125" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="204.0" minHeight="10.0" prefHeight="25.989486694335938" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="204.0" minHeight="10.0" prefHeight="23.010513305664062" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children>
+      </Pane>
+      <RadioButton fx:id="rbSemanal" layoutX="396.0" layoutY="37.0" mnemonicParsing="false" onAction="#onCbPressed" selected="true" text="Semanal" toggleGroup="$modo" />
+      <ComboBox id="cbProfesor" fx:id="cbProfesor" layoutX="109.0" layoutY="34.0" prefHeight="25.0" prefWidth="261.0" />
+      <ImageView fx:id="colorAzul" fitHeight="48.0" fitWidth="30.0" layoutX="357.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true" rotate="-88.4">
+         <image>
+            <Image url="@../res/Azul.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="414.0" layoutY="389.0" text="1ºA DAM">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="colorAmarillo" fitHeight="48.0" fitWidth="30.0" layoutX="359.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true" rotate="-92.4">
+         <image>
+            <Image url="@../res/Amarillo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="414.0" layoutY="434.0" text="2ºA DAM">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="477.0" text="1ºA SMR">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="colorVerde" fitHeight="48.0" fitWidth="30.0" layoutX="362.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true" rotate="-88.4">
+         <image>
+            <Image url="@../res/Verde.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="colorMorado" fitHeight="48.0" fitWidth="30.0" layoutX="363.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true" rotate="88.4">
+         <image>
+            <Image url="@../res/Morado.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="413.0" layoutY="525.0" text="2ºA SMR">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
