@@ -2,6 +2,7 @@ package Utilidades;
 
 
 public class Constantes {
+    public static final String COLOR_TAPA_CARPETA_POR_DETRAS = "e9d849";
     public static int MAX_LENGHT_USER_FIELD = 4;
     public static int MAX_LENGHT_PASS_FIELD = 10;
 

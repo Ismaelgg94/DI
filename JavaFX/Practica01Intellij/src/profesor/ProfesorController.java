@@ -5,6 +5,7 @@ import Utilidades.Constantes;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Group;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
@@ -12,6 +13,8 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.shape.Rectangle;
+import login.FlipTransition;
+import login.FlipTransitionToRight;
 
 import java.net.URL;
 import java.sql.*;
@@ -32,7 +35,9 @@ public class ProfesorController implements Initializable {
     @FXML
     private Label lblNombre, lblCodProf, lblNacimiento, lblAlta;
     @FXML
-    private ImageView imgL, imgM, imgX, imgJ, imgV;
+    private ImageView imgL, imgM, imgX, imgJ, imgV, imgTapa;
+    @FXML
+    private Group groupTapa;
     @FXML
     private Rectangle shapeLunes, shapeMiercoles;
 
@@ -43,6 +48,9 @@ public class ProfesorController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         cargarInformacionProf();
+
+        FlipTransition transition = new FlipTransition(313, 434);
+        transition.play(groupTapa);
     }
 
     private void cargarHorario(char letraDia){
