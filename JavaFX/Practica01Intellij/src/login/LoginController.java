@@ -2,9 +2,6 @@ package login;
 
 import Utilidades.BddConnection;
 import Utilidades.Constantes;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -12,10 +9,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import profesor.ProfesorController;
 
 import java.io.IOException;
@@ -37,18 +35,20 @@ public class LoginController implements Initializable {
     @FXML
     private Pane paneBtnProfesor;
     @FXML
-    private Pane paneBtnJefeEstudio;
+    private Pane paneBtnJefeEstudio, paneMoverVentana;
     @FXML
     private Label btnClose;
     @FXML
     private Label btnMinimize;
+    private double posX,posY;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         setMaxLenghtTextField(txtUser, Constantes.MAX_LENGHT_USER_FIELD);
         setMaxLenghtTextField(txtPass, Constantes.MAX_LENGHT_PASS_FIELD);
         btnClose.setOnMouseClicked(event -> {
-            //Cierra la aplicaciÛn.
+            //Cierra la aplicaci√≥n.
             ((Stage) btnClose.getScene().getWindow()).close();
         });
         btnMinimize.setOnMouseClicked(event -> {
@@ -61,13 +61,13 @@ public class LoginController implements Initializable {
                 lblError.setVisible(false);
             }
             else
-                //Se le indica al usuario mediante un mensaje que se equivocÛ escribiendo el usuario o la contraseÒa
+                //Se le indica al usuario mediante un mensaje que se ha equivocado escribiendo el usuario o la contrase√±a
                 showLoginError();
         });
         paneBtnJefeEstudio.setOnMouseClicked(event -> {
-            //Si el usuario introducido y su contraseÒa existen, se comprobara si es jefe de estudio.
-            //Si es jefe, se mostrar· la jefatura.
-            //Se mostrar· sus correspondientes errores en caso de fallo.
+            //Si el usuario introducido y su contrase√±a existen, se comprobara si es jefe de estudio.
+            //Si es jefe, se mostrar√° la jefatura.
+            //Se mostrar√° sus correspondientes errores en caso de fallo.
             if(logueoConExito()){
                 if(isJefe()){
                     showJefatura();
@@ -76,11 +76,20 @@ public class LoginController implements Initializable {
                     showJefeError();
             }else
                 showLoginError();
-
-
-
         });
+        configMovimientoVentana();
+    }
+    private void configMovimientoVentana() {
+        paneMoverVentana.setOnMousePressed(event -> {
+            posX = event.getX();
+            posY =  event.getY();
+        });
+        paneMoverVentana.setOnMouseDragged(event -> {
+            Stage stage = ((Stage) paneMoverVentana.getScene().getWindow());
 
+            stage.setX(event.getScreenX() - posX);
+            stage.setY(event.getScreenY() - posY);
+        });
     }
     private boolean logueoConExito(){
         boolean existe = false;
@@ -130,18 +139,20 @@ public class LoginController implements Initializable {
     public void showJefatura() {
         try {
             Stage stage = new Stage();
+            stage.initStyle(StageStyle.TRANSPARENT);
             AnchorPane root = FXMLLoader.load(getClass().getResource("/jefatura/FXMLJefatura.fxml"));
             Scene scene = new Scene(root);
+            scene.setFill(null);
             scene.getStylesheets().addAll(getClass().getResource("/jefatura/styleJefatura.css").toExternalForm());
             stage.setResizable(false);
 
             stage.setScene(scene);
-            //Oculta el login
-            paneBtnJefeEstudio.getScene().getWindow().hide();
+
             //Muestra el Stage de jefatura.
-            stage.showAndWait();
-            //Vuelve a mostrar el login cuando cierra la jefatura
-            ((Stage) paneBtnJefeEstudio.getScene().getWindow()).show();
+            stage.show();
+            //Se cierra el login.
+            ((Stage) paneBtnJefeEstudio.getScene().getWindow()).close();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -151,7 +162,8 @@ public class LoginController implements Initializable {
     private void showProfesor(){
         try {
             Stage stage = new Stage();
-            //Se le pasa al controlador el id del profesor que utilizar· posteriormente para encontrar su horario.
+            stage.initStyle(StageStyle.TRANSPARENT);
+            //Se le pasa al controlador el id del profesor que utilizar√° posteriormente para encontrar su horario.
             ProfesorController controller = new ProfesorController(txtUser.getText());
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/profesor/FXMLProfesor.fxml"));
             //No se puede especificar en el fxml que el controllador es "FXMLProfesor.fxml" para hacer esto.
@@ -160,31 +172,31 @@ public class LoginController implements Initializable {
             AnchorPane root = loader.load();
 
             Scene scene = new Scene(root);
+            scene.setFill(null);
             scene.getStylesheets().addAll(getClass().getResource("/profesor/styleProfesor.css").toExternalForm());
             stage.setResizable(false);
 
+
             stage.setScene(scene);
-            //Oculta el login
-            paneBtnProfesor.getScene().getWindow().hide();
             //Muestra el Stage de jefatura.
-            stage.showAndWait();
-            //Vuelve a mostrar el login cuando cierra la jefatura
-            ((Stage) paneBtnProfesor.getScene().getWindow()).show();
+            stage.show();
+            //Cierra el login
+            ((Stage) paneBtnProfesor.getScene().getWindow()).close();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    private void setMaxLenghtTextField(TextField textField, int maxLenght){
-        textField.lengthProperty().addListener(new ChangeListener<Number>() {
-            @Override
-            public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
-                if (newValue.intValue() > oldValue.intValue()) {
-                    //Comprueba si la ˙ltima inserciÛn supera el lÌmite de car·cteres.
-                    if (textField.getText().length() >= maxLenght) {
 
-                        textField.setText(textField.getText().substring(0, maxLenght));
-                    }
+
+    private void setMaxLenghtTextField(TextField textField, int maxLenght){
+        textField.lengthProperty().addListener((observable, oldValue, newValue) -> {
+            if (newValue.intValue() > oldValue.intValue()) {
+                //Comprueba si la √∫ltima inserci√≥n supera el l√≠mite de car√°cteres.
+                if (textField.getText().length() >= maxLenght) {
+
+                    textField.setText(textField.getText().substring(0, maxLenght));
                 }
             }
         });

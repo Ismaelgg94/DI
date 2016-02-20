@@ -12,12 +12,9 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-/**
- *
- * @author Usuario
- */
-public class MainStage extends Application {
 
+public class MainStage extends Application {
+    double posX= 0, posY = 0;
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -27,17 +24,12 @@ public class MainStage extends Application {
         scene.setFill(null);
         stage.initStyle(StageStyle.TRANSPARENT);
 
+
         scene.getStylesheets().addAll(getClass().getResource("/login/styleLogin.css").toExternalForm());
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
-
-
-
     }
-
-
-
 
 
     /**
@@ -46,5 +38,6 @@ public class MainStage extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
+
 }

@@ -1,69 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
-<?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="paneLogin" fx:id="paneMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
+<AnchorPane id="paneLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
    <children>
-      <ImageView fitHeight="407.0" fitWidth="402.0" layoutX="119.0" layoutY="30.0" pickOnBounds="true">
+      <ImageView fitHeight="380.0" fitWidth="558.0" layoutX="47.0" layoutY="57.0" pickOnBounds="true">
          <image>
-            <Image url="@../res/Loginss.png" />
+            <Image url="@../res/LoginV2.png" />
          </image>
       </ImageView>
-      <TextField fx:id="txtUser" alignment="TOP_LEFT" layoutX="151.0" layoutY="150.0" promptText="Usuario" styleClass="textField_transparent">
+      <Pane fx:id="paneMoverVentana" layoutX="53.0" layoutY="61.0" prefHeight="74.0" prefWidth="547.0" />
+      <TextField fx:id="txtUser" alignment="BOTTOM_LEFT" layoutX="233.0" layoutY="177.0" prefHeight="48.0" prefWidth="323.0" promptText="Usuario" styleClass="textField_transparent">
          <font>
-            <Font size="20.0" />
+            <Font name="Lucida Sans Regular" size="20.0" />
          </font></TextField>
-      <PasswordField fx:id="txtPass" layoutX="151.0" layoutY="225.0" promptText="Contraseña" styleClass="textField_transparent">
+      <PasswordField fx:id="txtPass" layoutX="233.0" layoutY="280.0" prefHeight="44.0" prefWidth="323.0" promptText="Contraseña" styleClass="textField_transparent">
          <font>
             <Font size="20.0" />
          </font></PasswordField>
-      <Label layoutX="320.0" layoutY="345.0" text="Jefe de estudio" textFill="WHITE">
-         <font>
-            <Font size="15.0" />
-         </font></Label>
-      <Pane id="paneBtnProfesor" fx:id="paneBtnProfesor" layoutX="151.0" layoutY="326.0" prefHeight="55.0" prefWidth="141.0" styleClass="paneBtn">
+      <Pane id="paneBtnProfesor" fx:id="paneBtnProfesor" layoutX="262.0" layoutY="354.0" prefHeight="55.0" prefWidth="141.0" styleClass="paneBtn">
          <children>
-            <ImageView fx:id="btnProfesor" fitHeight="58.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="58.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../res/Boton.png" />
+                  <Image url="@../res/BotonVerde.png" />
                </image>
             </ImageView>
-            <Label id="paneBtnProfesor" layoutX="43.0" layoutY="17.0" text="Profesor" textFill="WHITE">
+            <Label id="paneBtnProfesor" layoutX="41.0" layoutY="14.0" text="Profesor" textFill="WHITE">
                <font>
-                  <Font size="15.0" />
+                  <Font name="System Bold" size="15.0" />
                </font>
             </Label>
          </children>
       </Pane>
-      <Pane id="paneBtnJefeEstudio" fx:id="paneBtnJefeEstudio" layoutX="292.0" layoutY="326.0" prefHeight="55.0" prefWidth="141.0" styleClass="paneBtn">
+      <Pane id="paneBtnJefeEstudio" fx:id="paneBtnJefeEstudio" layoutX="411.0" layoutY="354.0" prefHeight="55.0" prefWidth="141.0" styleClass="paneBtn">
          <children>
-            <ImageView fx:id="btnProfesor1" fitHeight="58.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="58.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../res/Boton.png" />
+                  <Image url="@../res/BotonVerde.png" />
                </image>
             </ImageView>
-            <Label id="paneBtnProfesor" layoutX="19.0" layoutY="17.0" text=" Jefe de estudio" textFill="WHITE">
+            <Label id="paneBtnProfesor" layoutX="14.0" layoutY="14.0" text=" Jefe de estudio" textAlignment="CENTER" textFill="WHITE">
                <font>
-                  <Font size="15.0" />
+                  <Font name="System Bold" size="15.0" />
                </font>
             </Label>
          </children>
       </Pane>
-      <Label fx:id="btnClose" layoutX="441.0" layoutY="45.0" styleClass="mano" text="x" textFill="#9a9a9a">
+      <Label fx:id="btnClose" layoutX="556.0" layoutY="80.0" styleClass="mano" text="x" textFill="WHITE">
          <font>
-            <Font name="Consolas" size="19.0" />
+            <Font name="Consolas" size="32.0" />
          </font>
       </Label>
-      <Label id="btnMinimize" fx:id="btnMinimize" layoutX="420.0" layoutY="45.0" styleClass="mano" text="-" textFill="#9a9a9a">
+      <Label id="btnMinimize" fx:id="btnMinimize" layoutX="530.0" layoutY="75.0" styleClass="mano" text="-" textFill="WHITE">
          <font>
-            <Font name="Gadugi Bold" size="19.0" />
+            <Font name="Gadugi Bold" size="32.0" />
          </font>
       </Label>
-      <Label fx:id="lblError" layoutX="168.0" layoutY="293.0" text="*El usuario o la contraseña es incorrecto." textFill="#d70909" visible="false" />
+      <Label fx:id="lblError" layoutX="67.0" layoutY="401.0" text="*El usuario o la contraseña es incorrecto." textFill="#d70909" visible="false" />
    </children>
 </AnchorPane>

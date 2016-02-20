@@ -1,9 +1,4 @@
-#prueba{
-    -fx-background-image: url("../res/login.png");
-    -fx-background-repeat: space;
-    -fx-background-position: center center;
-    -fx-background-size: stretch;
-}
+
 
 .textField_transparent{
     -fx-background-color: transparent;
@@ -16,7 +11,7 @@
 }
 
 .paneBtn:pressed{
-    -fx-effect: dropshadow(gaussian, black, 0, 0, 0, 2.5);
+
     -fx-translate-y: 4;
 }
 

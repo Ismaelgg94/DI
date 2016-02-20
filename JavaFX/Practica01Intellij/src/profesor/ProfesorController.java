@@ -3,16 +3,28 @@ package profesor;
 import Utilidades.BddConnection;
 import Utilidades.Constantes;
 import javafx.event.Event;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Group;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
 import javafx.scene.shape.Rectangle;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
+import java.io.IOException;
 import java.net.URL;
 import java.sql.*;
 import java.text.SimpleDateFormat;
@@ -30,11 +42,16 @@ public class ProfesorController implements Initializable {
     @FXML
     private GridPane gridLunes, gridMartes, gridMiercoles, gridJueves, gridViernes;
     @FXML
-    private Label lblNombre, lblCodProf, lblNacimiento, lblAlta;
+    private Pane paneMoverVentana;
     @FXML
-    private ImageView imgL, imgM, imgX, imgJ, imgV;
+    private Label lblNombre, lblCodProf, lblNacimiento, lblAlta, btnCerrar, btnMinimizar;
+    @FXML
+    private ImageView imgL, imgM, imgX, imgJ, imgV, imgTapa, btnAtras;
+    @FXML
+    private Group groupTapa;
     @FXML
     private Rectangle shapeLunes, shapeMiercoles;
+    private double posX,posY;
 
     public ProfesorController(String codProf){
         COD_PROF = codProf;
@@ -42,7 +59,29 @@ public class ProfesorController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
         cargarInformacionProf();
+        //Ejecuta la animaciÃ³n de la carpeta al iniciar el formulario.
+        FlipTransition transition = new FlipTransition(184, 434);
+        transition.play(groupTapa);
+
+        //Vuelve al login
+        btnAtras.setOnMouseClicked(event -> showLogin());
+        //Cierra la aplicaciÃ³n
+        btnCerrar.setOnMouseClicked(event -> ((Stage) btnCerrar.getScene().getWindow()).close());
+        //Minimiza la aplicaciÃ³n
+        btnMinimizar.setOnMouseClicked(event -> ((Stage) btnCerrar.getScene().getWindow()).setIconified(true));
+
+        paneMoverVentana.setOnMousePressed(event -> {
+            posX = event.getX();
+            posY =  event.getY();
+        });
+        paneMoverVentana.setOnMouseDragged(event -> {
+            Stage stage = ((Stage) paneMoverVentana.getScene().getWindow());
+
+            stage.setX(event.getScreenX() - posX);
+            stage.setY(event.getScreenY() - posY);
+        });
     }
 
     private void cargarHorario(char letraDia){
@@ -53,15 +92,15 @@ public class ProfesorController implements Initializable {
             ResultSet rs;
             //Se indica el profesor del cual buscar los datos.
             statement.setString(1, COD_PROF);
-            //Se indica el día del que se cogera las asignaturas impartidas.
+            //Se indica el dÃ­a del que se cogera las asignaturas impartidas.
             statement.setString(2, letraDia + "%");
             rs = statement.executeQuery();
 
             while (rs.next()){
-                //Se consigue el número del codTramo ej: L3
+                //Se consigue el nÃºmero del codTramo ej: L3
                 int hora = Character.getNumericValue(rs.getString(1).charAt(1));
                 GridPane grid = null;
-                //Rellena el grid, según el día que le corresponda.
+                //Rellena el grid, segÃºn el dÃ­a que le corresponda.
                 switch (letraDia) {
                     case 'L':
                         grid = gridLunes;
@@ -113,7 +152,7 @@ public class ProfesorController implements Initializable {
                 //Formatea el Date.
                 lblNacimiento.setText(format.format(rs.getDate("fechadenacimiento")));
                 imgFoto.setImage(new Image(rs.getString("foto")));
-                //Si es jefe de estudios se mostrará una imagen de un sello
+                //Si es jefe de estudios se mostrarÃ¡ una imagen de un sello
                 if(rs.getInt("jefe") == 1)
                     imgSello.setVisible(true);
             }
@@ -123,13 +162,13 @@ public class ProfesorController implements Initializable {
             e.printStackTrace();
         }
     }
-    //Cuando se cambia entre pestaás, se carga el horario del dia pulsado y se efectua la animación de
-    //los marcapáginas.
+    //Cuando se cambia entre pestaÃ±as, se carga el horario del dia pulsado y se efectua la animaciÃ³n de
+    //los marcapÃ¡ginas.
     public void onTabChanged(Event event) {
         String id =((Tab) event.getTarget()).getId();
         char letraDia = ' ';
         GridPane grid = null;
-        //Se vuelven todos los marcapáginas a su posición inicial.
+        //Se vuelven todos los marcapÃ¡ginas a su posiciÃ³n inicial.
         resetearMarcaPaginas();
 
         if(id.equals(tabLunes.getId())){
@@ -179,8 +218,43 @@ public class ProfesorController implements Initializable {
         imgV.translateYProperty().setValue(0);
     }
 
-    public void setCodProf(String codProf){
-        COD_PROF = codProf;
+
+
+    public void onKeyPressed(KeyEvent event) {
+        //Vuelve al formulario anterior cuando se presiona la tecla Escape
+        if(event.getCode() == KeyCode.ESCAPE)
+            showLogin();
+
+    }
+
+    public void showLogin(){
+        try {
+            Stage stage = new Stage();
+            AnchorPane root = FXMLLoader.load(getClass().getResource("/login/FXMLLogin.fxml"));
+            Scene scene = new Scene(root);
+            scene.setFill(null);
+            stage.initStyle(StageStyle.TRANSPARENT);
+
+            //Permite que la ventana se mueva
+            root.setOnMousePressed(event -> {
+                posX = event.getX();
+                posY =  event.getY();
+            });
+
+            root.setOnMouseDragged(event -> {
+                stage.setX(event.getScreenX() - posX);
+                stage.setY(event.getScreenY() - posY);
+            });
+
+            scene.getStylesheets().addAll(getClass().getResource("/login/styleLogin.css").toExternalForm());
+            stage.setResizable(false);
+            stage.setScene(scene);
+            stage.show();
+            //Cierra este formulario
+            ((Stage) btnAtras.getScene().getWindow()).close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 
