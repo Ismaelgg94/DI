@@ -8,7 +8,10 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Group;
+<<<<<<< HEAD
 import javafx.scene.Scene;
+=======
+>>>>>>> 95fccd223995c0980f03e768ec6505fcebb9e0b7
 import javafx.scene.control.Label;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
@@ -21,8 +24,13 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Rectangle;
+<<<<<<< HEAD
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+=======
+import login.FlipTransition;
+import login.FlipTransitionToRight;
+>>>>>>> 95fccd223995c0980f03e768ec6505fcebb9e0b7
 
 import java.io.IOException;
 import java.net.URL;
@@ -44,9 +52,13 @@ public class ProfesorController implements Initializable {
     @FXML
     private Pane paneMoverVentana;
     @FXML
+<<<<<<< HEAD
     private Label lblNombre, lblCodProf, lblNacimiento, lblAlta, btnCerrar, btnMinimizar;
     @FXML
     private ImageView imgL, imgM, imgX, imgJ, imgV, imgTapa, btnAtras;
+=======
+    private ImageView imgL, imgM, imgX, imgJ, imgV, imgTapa;
+>>>>>>> 95fccd223995c0980f03e768ec6505fcebb9e0b7
     @FXML
     private Group groupTapa;
     @FXML
@@ -61,6 +73,7 @@ public class ProfesorController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
         cargarInformacionProf();
+<<<<<<< HEAD
         //Ejecuta la animación de la carpeta al iniciar el formulario.
         FlipTransition transition = new FlipTransition(184, 434);
         transition.play(groupTapa);
@@ -82,6 +95,11 @@ public class ProfesorController implements Initializable {
             stage.setX(event.getScreenX() - posX);
             stage.setY(event.getScreenY() - posY);
         });
+=======
+
+        FlipTransition transition = new FlipTransition(313, 434);
+        transition.play(groupTapa);
+>>>>>>> 95fccd223995c0980f03e768ec6505fcebb9e0b7
     }
 
     private void cargarHorario(char letraDia){
